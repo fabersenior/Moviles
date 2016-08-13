@@ -5,12 +5,6 @@
  */
 package Item16;
 
-import java.util.Scanner;
-
-/**
- *
- * @author multi08
- */
 public class publicacion {
     private String titulo;
     private int Precio;

@@ -5,6 +5,7 @@
  */
 package Item16;
 
+
 import java.util.Scanner;
 
 /**
@@ -32,6 +33,8 @@ public class Libro extends publicacion{
     
     @Override
     public void show(){
+        System.out.println("Titulo : "+getTitulo());
+        System.out.println("Precio : "+getPrecio());
         System.out.println("Numero de Paginas: "+getPag());
         System.out.println("Año de Publicacion : "+getFecha());
         
