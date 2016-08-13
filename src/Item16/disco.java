@@ -11,7 +11,7 @@ import java.util.Scanner;
  * @author microp
  */
 public class disco extends publicacion {
-    int duracion;
+    private int duracion;
 
     public int getDuracion() {
         return duracion;

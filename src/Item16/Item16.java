@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 public class Item16 {
     public static void main(String[] args) {
-        Libro lib1= new Libro();
+        Libro lib1[]= new Libro[10];
         disco cd1=new disco();
         int opcion;
         Scanner lector = new Scanner(System.in);
@@ -30,12 +30,14 @@ public class Item16 {
             switch (opcion){
                 case 0: System.out.println("Hasta luego");
                     break;
-                case 1: lib1.setParam();
-                        lib1.show();
+                case 1: lib1[1]= new Libro(); 
+                    lib1[1].setParam();
+                        lib1[1].show();
                     break;
                 case 2: cd1.setParam();
+                        cd1.show();
                     break;
-                case 3: lib1.show();
+                case 3: //lib1.show();
                     break;
                 case 4:
                         cd1.show();
